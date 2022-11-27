@@ -30,10 +30,20 @@ Como consumidor promedio de vino en algunos momentos   es necesario  tener una a
 
 6. ahora se usan los datos de forma que 70 % de los datos para se usan entrenar, 20 % para probar y el 10 % para validar el método.
 
-8.se genera un nuevo archivo lugo de realizar los ajustes de los  datos   en general y se le hace una  estandarizacion de los datos.
+7.se genera un nuevo archivo lugo de realizar los ajustes de los  datos   en general y se le hace una  estandarizacion de los datos.
 
 ![image](https://user-images.githubusercontent.com/110490202/204149807-870d486b-c255-4974-a228-671957fc3727.png)
 
 8.luego de esto  se hace PCA  la cual es  herramienta para reducir la dimensionalidad en los datos que puede ser utilizado para convertir un conjunto bastante grande de variables en un conjunto más pequeño que contenga la mayor cantidad de información contenida en el conjunto grande.
 
 ![image](https://user-images.githubusercontent.com/110490202/204150015-15c17120-67f6-4932-ab1b-9c03f1ff3a4c.png)
+9. proceso de entrenamiento de metodo KNN 
+![image](https://user-images.githubusercontent.com/110490202/204150222-3d9b0336-ea04-47c4-94ff-cd97d239a6cf.png)
+10.se hace un reciclaje con los mejores parámetros y con el 90% de los datos que son  70 % de los datos para se usan entrenar, 20 % para probar
+![image](https://user-images.githubusercontent.com/110490202/204150283-470f5e81-db9c-4c31-bc0b-8b9b0f640fd9.png)
+11.
+![image](https://user-images.githubusercontent.com/110490202/204150325-65764827-2918-472c-bae8-a80f99cb99bb.png)
+
+
+---------------------------------------------------RESULTADOS-------------------------------------------------------------------
+
