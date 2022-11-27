@@ -63,11 +63,12 @@ Como consumidor promedio de vino en algunos momentos   es necesario  tener una a
  
  ![image](https://user-images.githubusercontent.com/110490202/204151337-d0a06543-04c0-468d-8a83-67024c16829a.png)
  
- 3.La precisión de nuestro conjunto de datos de entrenamiento con ajuste eN DecisionTreeClassifier  : 59.43%  MCC =  0.2275418598167701
- 
+ 3.La precisión de nuestro conjunto de datos de entrenamiento con ajuste eN DecisionTreeClassifier  : 59.43%  MCC =  0.014188692204112178
+ ![image](https://user-images.githubusercontent.com/110490202/204153764-aa7683a1-294f-4951-b8e2-8f5c0ed4baab.png)
+
 ---------------------------------------------------CONCLUSIONES------------------------------------------------------------------
 
-podemos  observar que en ambos casos los valores   de entrenamientos y los valores finales  al realizar la validacion del 10%   presentan una variacion esto se puede inferir ya que muchos datos como  el PH  ,azúcar residual, # aacidez fija no presentan variaciones mayores al  0.1 sin embargo   se puede analizar que hay caracteristicas que son muy significativas  como lo son el acido citrico el cual varia hasta en 0.3 , el  % de sulfatos ,dióxido de azufre libre,dioxido sulfuroso  y el %cloruros por lo tanto estan son las principales caracteristicas  a la hora de analizar  y obtener las bases de datos, aun que la diferencia entre knn y  DecisionTreeClassifier  en el entrenamiento es alta  una vez se pone a prueba  con la validazacion podemos descartar el metodo de DecisionTreeClassifier ya que su La precisión es menor a un
+podemos  observar que en ambos casos los valores   de entrenamientos y los valores finales  al realizar la validacion del 10%   presentan una variacion esto se puede inferir ya que muchos datos como  el PH  ,azúcar residual, # aacidez fija no presentan variaciones mayores al  0.1 sin embargo   se puede analizar que hay caracteristicas que son muy significativas  como lo son el acido citrico el cual varia hasta en 0.3 , el  % de sulfatos ,dióxido de azufre libre,dioxido sulfuroso  y el %cloruros por lo tanto estan son las principales caracteristicas  a la hora de analizar  y obtener las bases de datos, aun que la diferencia entre knn y  DecisionTreeClassifier  en el entrenamiento es alta  una vez se pone a prueba  con la validazacion podemos descartar el metodo de DecisionTreeClassifier ya que su La precisión es  mucho menor a  la de KNN.
 
 
 
